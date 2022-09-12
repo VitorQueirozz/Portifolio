@@ -1,0 +1,141 @@
+:root {
+    --cor1: #3183D4;
+    --cor2: #2346A1;
+    --cor3: #020878;
+    --cor4: #4027B0;
+    --cor5: #33165C;
+    --cor6: #2222fe;
+    --cor7: #261c3f;
+    --cor8: #00e5fc;
+    --cor9: #010321;
+    --font: font-family: 'Roboto Slab', serif;
+}
+
+.container-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container-contato h1 {
+    color: var(--cor8);
+    font-size: 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+}
+
+.container-contato h1:after {
+    content: "";
+    margin-top: 10px;
+    border-radius: 40px;
+    width: 240px;
+    height: 5px;
+    background: linear-gradient(to right, #020878 10%, #00e5fc 80%);
+    display: block;
+    margin: auto;
+}
+
+.contato {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.whats-tele {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+    height: 400px;
+}
+
+.contatotewh {
+    background: rgba(255, 255, 255, 0.048);
+    width: 50%;
+    height: 150px;
+    text-align: center;
+    color: var(--cor8);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.contatotewh p {
+    color: rgba(255, 255, 255, 0.658);
+}
+
+.contatotewh a {
+    text-decoration: none;
+}
+
+.contatotewh a p:hover {
+    text-decoration: underline;
+    color: var(--cor2);
+}
+
+.img-contato {
+    width: 25px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+    width: 50%;
+    user-select: none;
+}
+
+.input {
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid var(--cor1);
+    background-color: transparent;
+    color: white;
+    padding-left: 15px;
+    font-size: 17px;
+    outline: none;
+}
+
+.msg {
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.btn-enviar {
+    background: linear-gradient(to right, #010321, #261c3f);
+    height: 50px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    width: 15%;
+    border-radius: 10px;
+    user-select: none;
+}
+
+.btn-enviar:hover {
+    background: var(--cor8);
+    color: var(--cor9);
+    box-shadow: 0px 0px 15px var(--cor8);
+    border: none;
+    cursor: pointer;
+}
+
+.btn-enviar:active {
+    transform: scale(1.2);
+}
+

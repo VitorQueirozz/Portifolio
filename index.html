@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <link rel="shortcut icon" href="imagem/efeito.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/card.css">
+    <link rel="stylesheet" href="styles/contato.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+
+    <header class="cabecalho" id="inicio">
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Portifólio</h1>
+            </div>
+            <div class="menu" id="itens">
+                <a href="#inicio">Inicío</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+            </div>
+            
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="imagem/menu.svg" alt=""></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <a href="#inicio">Inicío</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </div>
+    </header>
+
+
+    <section class="container-inicio">
+        <article class="conteudo-inicio">
+            <div class="texto-inicio">
+                <h1>VITOR MANOEL</h1>
+                <h2 class="gradient">Desenvolvedor Front-End</h2>
+                <p>
+                    Olá, seja bem vindo(a) ao meu portifólio! Prazer meu nome é Vitor Manoel, aqui você encontrará alguns dos meus projetos pessoais e informações sobre mim, de forma bem simples e dinâmica. Estou estudando desenvolvimento web, focado no Front-end.
+                </p>
+            </div>
+            <div class="button-inicio">
+                <a href="#contato">
+                    <button class="button conta">Entrar em contato</button>
+                </a>
+                <a href="https://drive.google.com/file/d/1S8VZnz2D4NZIol_rGNJLx6DZMKQuO7pH/view?usp=sharing" target="_blank">
+                    <button class="button cv">Download CV</button>
+                </a>
+            </div>
+            <div class="redes-inicio">
+                <a href="https://www.facebook.com/vitor.manoel.3950/" target="_blank">
+                    <img src="imagem/facebook.png" alt="logo Facebook" class="logo-redes face">
+                </a>
+                <a href="https://www.instagram.com/_vitor.queiroz/" target="_blank">
+                    <img src="imagem/instagram.png" alt="Logo Instagran" class="logo-redes insta">
+                </a>
+                <a href="https://github.com/VitorQueirozz" target="_blank">
+                    <img src="imagem/github.png" alt="Logo GitHub" class="logo-redes git">
+                </a>
+                <a href="https://www.linkedin.com/in/vitor-manoel-924b72180/" target="_blank">
+                    <img src="imagem/linkedin.png" alt="Logo Linkedin" class="logo-redes linke">
+                </a>
+            </div>
+        </article>
+        <aside class="conteudo-img">
+            <img src="imagem/eu.jpg" alt="" class="foto-eu">
+        </aside>
+    </section>
+
+
+    <h1 class="sobre-mim" id="sobre">SOBRE MIM</h1>
+    <section class="container-sobre">
+        <article class="texto-sobre">
+            <p>
+                Desenvolvedor Front-End, com experiência em vários projetos pessoais, buscando me capacitar cada vez mais através de cursos e Bootcamps, sempre disposto a novos desafios e oportunidades.
+                Iniciei os estudos em 2022 e logo de cara me apaixonei, quanto mais eu aprendia mais eu queria ver e testar coisas novas, a sensação de ver um projeto em ação é incrível. Tenho como base de estudo o aprendizado adquirido dia após dia. Possuo foco em desenvolvimento com <span>Javascript</span>, <span>React</span>, dentre outras tecnologias que uso para criar aplicações web.
+            </p>
+        </article>
+        <aside class="img-sobre">
+            <img src="imagem/js.png" alt="" class="js-html">
+        </aside>
+    </section>
+
+    <h1 class="projeto" id="projetos">PROJETOS</h1>
+    <section class="container-projetos">
+        <div class="card">
+            <div class="content">
+                <div class="texto-projeto">
+                    <img src="imagem/cadastro.png" alt="" class="img-projeto">
+                    <h1>Cadastro de Clientes</h1>
+                    <p></p>
+                </div>
+                <div class="buttons">
+                    <a href="https://github.com/VitorQueirozz/CRUD" target="_blank">
+                        <button class="btn-github">GitHub</button>
+                    </a>
+                    <a href="https://vitorqueirozz.github.io/CRUD/" target="_blank">
+                        <button class="btn-hospedado">Aplicação</button>
+                    </a>
+                </div>
+                <div class="tecnologias">
+                    <img src="imagem/html.png" alt="" class="img-tec">
+                    <img src="imagem/css-3.png" alt="" class="img-tec">
+                    <img src="imagem/java-script.png" alt="" class="img-tec">
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <div class="texto-projeto">
+                    <img src="imagem/todo-list.png" alt="" class="img-projeto">
+                    <h1>Lista de Tarefas</h1>
+                    <p></p>
+                </div>
+                <div class="buttons">
+                    <a href="https://github.com/VitorQueirozz/Todo-List2" target="_blank">
+                        <button class="btn-github">GitHub</button>
+                    </a>
+                    <a href="https://vitorqueirozz.github.io/Todo-List2/" target="_blank">
+                        <button class="btn-hospedado">Aplicação</button>
+                    </a>
+                </div>
+                <div class="tecnologias">
+                    <img src="imagem/html.png" alt="" class="img-tec">
+                    <img src="imagem/css-3.png" alt="" class="img-tec">
+                    <img src="imagem/java-script.png" alt="" class="img-tec">
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <div class="texto-projeto">
+                    <img src="imagem/Captura de Tela (93).png" alt="" class="img-projeto">
+                    <h1>Jogo da Memória</h1>
+                    <p></p>
+                </div>
+                <div class="buttons">
+                    <a href="https://github.com/VitorQueirozz/Memory-Game" target="_blank">
+                        <button class="btn-github">GitHub</button>
+                    </a>
+                    <a href="https://vitorqueirozz.github.io/Memory-Game/" target="_blank">
+                        <button class="btn-hospedado">Aplicação</button>
+                    </a>
+                </div>
+                <div class="tecnologias">
+                    <img src="imagem/html.png" alt="" class="img-tec">
+                    <img src="imagem/css-3.png" alt="" class="img-tec">
+                    <img src="imagem/java-script.png" alt="" class="img-tec">
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <div class="texto-projeto">
+                    <img src="imagem/Captura de Tela (94).png" alt="" class="img-projeto">
+                    <h1>Pokedex</h1>
+                    <p></p>
+                </div>
+                <div class="buttons">
+                    <a href="https://github.com/VitorQueirozz/Pokedex" target="_blank">
+                        <button class="btn-github">GitHub</button>
+                    </a>
+                    <a href="https://vitorqueirozz.github.io/Pokedex/" target="_blank">
+                        <button class="btn-hospedado">Aplicação</button>
+                    </a>
+                </div>
+                <div class="tecnologias">
+                    <img src="imagem/html.png" alt="" class="img-tec">
+                    <img src="imagem/css-3.png" alt="" class="img-tec">
+                    <img src="imagem/java-script.png" alt="" class="img-tec">
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <div class="texto-projeto">
+                    <img src="imagem/geradorsenha.png" alt="" class="img-projeto">
+                    <h1>Gerador de senha</h1>
+                    <p></p>
+                </div>
+                <div class="buttons">
+                    <a href="https://github.com/VitorQueirozz/Gerador-de-senha" target="_blank">
+                        <button class="btn-github">GitHub</button>
+                    </a>
+                    <a href="https://vitorqueirozz.github.io/Gerador-de-senha/" target="_blank">
+                        <button class="btn-hospedado">Aplicação</button>
+                    </a>
+                </div>
+                <div class="tecnologias">
+                    <img src="imagem/html.png" alt="" class="img-tec">
+                    <img src="imagem/css-3.png" alt="" class="img-tec">
+                    <img src="imagem/java-script.png" alt="" class="img-tec">
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <div class="texto-projeto">
+                    <img src="imagem/contador.png" alt="" class="img-projeto">
+                    <h1>CountDown</h1>
+                    <p></p>
+                </div>
+                <div class="buttons">
+                    <a href="https://github.com/VitorQueirozz/Count-Down" target="_blank">
+                        <button class="btn-github">GitHub</button>
+                    </a>
+                  
+                    <a href="https://vitorqueirozz.github.io/Count-Down/" target="_blank">
+                        <button class="btn-hospedado">Aplicação</button>
+                    </a>
+                    
+                </div>
+                <div class="tecnologias">
+                    <img src="imagem/html.png" alt="" class="img-tec">
+                    <img src="imagem/css-3.png" alt="" class="img-tec">
+                    <img src="imagem/java-script.png" alt="" class="img-tec">
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <div class="texto-projeto">
+                    <img src="imagem/calculadora.png" alt="" class="img-projeto">
+                    <h1>Calculadora</h1>
+                    <p></p>
+                </div>
+                <div class="buttons">
+                    <a href="https://github.com/VitorQueirozz/CalculadorJS" target="_blank">
+                        <button class="btn-github">GitHub</button>
+                    </a>
+                    <a href="https://vitorqueirozz.github.io/CalculadorJS/" target="_blank">
+                        <button class="btn-hospedado">Aplicação</button>
+                    </a>
+                </div>
+                <div class="tecnologias">
+                    <img src="imagem/html.png" alt="" class="img-tec">
+                    <img src="imagem/css-3.png" alt="" class="img-tec">
+                    <img src="imagem/java-script.png" alt="" class="img-tec">
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <div class="texto-projeto">
+                    <img src="imagem/spotify.png" alt="" class="img-projeto">
+                    <h1>Clone Spotify</h1>
+                    <p></p>
+                </div>
+                <div class="buttons">
+                    <a href="https://github.com/VitorQueirozz/Clone-Spotify" target="_blank">
+                        <button class="btn-github">GitHub</button>
+                    </a>
+                    <a href="https://vitorqueirozz.github.io/Clone-Spotify/" target="_blank">
+                        <button class="btn-hospedado">Aplicação</button>
+                    </a>
+                </div>
+                <div class="tecnologias">
+                    <img src="imagem/html.png" alt="" class="img-tec">
+                    <img src="imagem/css-3.png" alt="" class="img-tec">
+
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <div class="texto-projeto">
+                    <img src="imagem/landing.png" alt="" class="img-projeto">
+                    <h1>Landing Page</h1>
+                    <p></p>
+                </div>
+                <div class="buttons">
+                    <a href="https://github.com/VitorQueirozz/LandingPage-Reencontrow" target="_blank">
+                        <button class="btn-github">GitHub</button>
+                    </a>
+                    <a href="https://vitorqueirozz.github.io/LandingPage-Reencontrow/" target="_blank">
+                        <button class="btn-hospedado">Aplicação</button>
+                    </a>
+                </div>
+                <div class="tecnologias">
+                    <img src="imagem/html.png" alt="" class="img-tec">
+                    <img src="imagem/css-3.png" alt="" class="img-tec">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-contato" id="contato">
+        <h1>CONTATE-ME</h1>
+        <div class="contato">
+            <form action="mailto:vitormanoel12393@gmail.com" method="post" enctype="text/plain" class="form">
+                <input type="text" name="nome" placeholder="Seu nome completo" class="input nome" required>
+                <input type="email" name="email" placeholder="Seu E-mail" class="input email" required>
+                <input type="text" name="msg" placeholder="Sua mensagem" class="input msg" required>
+                <button type="submit" class="btn-enviar">Enviar</button>
+            </form>
+            <div class="whats-tele">
+                <div class="contatotewh telegran">
+                    <img src="imagem/telegram.png" alt="" class="img-contato">
+                    <h2>Telegram</h2>
+                    <a href="https://t.me/@VitorMAQ" target="_blank">
+                        <p>Entre em contato</p>
+                    </a>
+                </div>
+                <div class="contatotewh whats">
+                    <img src="imagem/whatsapp.png" alt="" class="img-contato">
+                    <h2>Whatsapp</h2>
+                    <a href="https://api.whatsapp.com/send?phone=5561996997356" target="_blank">
+                        <p>Entre em contato</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <div class="opcoes-rodape">
+            <a href="#inicio">Inicío</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </div>
+        <div class="redes-rodape">
+            <a href="">
+                <a href="https://www.facebook.com/vitor.manoel.3950/" target="_blank">
+                    <img src="imagem/facebook.png" alt="" class="logo-redess">
+                </a>
+            </a>
+            <a href="https://www.instagram.com/_vitor.queiroz/" target="_blank">
+                <img src="imagem/instagram.png" alt="" class="logo-redess">
+            </a>
+            <a href="https://github.com/VitorQueirozz" target="_blank">
+                <img src="imagem/github.png" alt="" class="logo-redess">
+            </a>
+            <a href="https://www.linkedin.com/in/vitor-manoel-924b72180/" target="_blank">
+                <img src="imagem/linkedin.png" alt="" class="logo-redess">
+            </a>
+        </div>
+        <p>copyright &copy; <a href="https://github.com/VitorQueirozz" target="_blank">VITOR MANOEL</a></p>
+    </footer>
+    <script src="js/script.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 0.2,
+        });
+    </script>
+    <script src="js/menu.js"></script>
+</body>
+</html>

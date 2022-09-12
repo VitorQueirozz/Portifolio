@@ -1,0 +1,342 @@
+@media screen and (max-width: 1620px) {
+    .conteudo-inicio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 80px;
+    }
+    
+    .conteudo-inicio h1  {
+        font-size: 50px;
+    }
+
+    .conteudo-inicio h2 {
+        font-size: 25px;
+    }
+
+    .conteudo-inicio p {
+        font-size: 20px;
+    }
+
+    .sobre-mim {
+        font-size: 50px;
+    }
+
+    .texto-sobre p {
+        font-size: 20px;
+    }
+
+    .js-html {
+        width: 350px;
+    }
+
+    .projeto {
+        font-size: 50px;
+    }
+
+    .container-contato h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1135px) {
+
+    .nav-bar {
+        padding: 1.5rem 6rem;
+    }
+    .cabecalho {
+        padding-left: 0px;
+    }
+    
+    .foto-eu {
+        width: 300px;
+        border-radius: 100px;
+        margin-right: 50px;
+    }
+
+    .conteudo-inicio {
+        width: 100%;
+        padding: 0 50px;
+    }
+
+    .container-sobre {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .texto-sobre {
+        width: 100%;
+        padding: 0 50px;
+        margin-bottom: 50px;
+    }
+
+    .img-sobre {
+        border-radius: 50px;
+        padding: 40px;
+    }
+
+    .btn-enviar {
+        width: 30%;
+        font-size: 17px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+   
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /*height: 90px;*/
+        padding-left: 0;
+    }*/
+   
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .menu a {
+        display: none;
+        font-size: 22px;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu a {
+        display: block;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .open {
+        display: block;
+    }
+   
+    .container-inicio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteudo-inicio {
+        padding: 50px 20px 0px 20px;
+    }
+    
+    .conteudo-inicio h1  {
+        font-size: 50px;
+    }
+
+    .conteudo-inicio h2 {
+        font-size: 25px;
+    }
+
+    .conteudo-inicio p {
+        font-size: 23px;
+    }
+
+    .texto-sobre {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .texto-sobre p {
+        font-size: 23px;
+    }
+    
+    .foto-eu {
+        width: 300px;
+        border-radius: 100px;
+        margin-bottom: 50px;
+        margin-right: 0px;
+    }
+    
+    .js-html {
+        width: 250px;
+    }
+
+    .btn-enviar {
+        width: 40%;
+        font-size: 17px;
+        border-radius: 10px;
+    }
+
+}
+
+@media screen and (max-width: 720px) {
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: px;
+        /*height: 90px;*/
+        padding-left: 0;
+        padding: 10px 0;
+    }*/
+
+    .cabecalho h1 {
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .button {
+        width: 145px;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    .redes-inicio {
+        display: flex;
+        gap: 50px;
+    }
+
+    .logo-redes {
+        width: 45px;
+        border-radius: 15px;
+    }
+
+    .projeto {
+        font-size: 40px;
+    }
+
+    .sobre-mim {
+        font-size: 40px;
+    }
+
+    .container-contato h1 {
+        font-size: 40px;
+    }
+
+    .container-contato h1:after {
+        content: "";
+        margin-top: 10px;
+        border-radius: 40px;
+        width: 200px;
+        height: 5px;
+        background: linear-gradient(to right, #020878 10%, #00e5fc 80%);
+        display: block;
+        margin: auto;
+    }
+
+    .contato {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .btn-enviar {
+        width: 30%;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+
+    .whats-tele {
+        width: 100%;
+    }
+
+    .contatotewh h2 {
+        font-size: 20px;
+    }
+    
+
+    .contatotewh p {
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.658);
+    }
+    
+}
+
+@media screen and (max-width: 570px) {
+    .nav-bar {
+        padding: 1.5rem 0rem;
+    }
+
+    .conteudo-inicio h1  {
+        padding-top: 20px;
+        font-size: 40px;
+    }
+
+    .conteudo-inicio h2 {
+        font-size: 23px;
+    }
+
+    .conteudo-inicio p {
+        font-size: 20px;
+    }
+
+    .texto-sobre p {
+        font-size: 20px;
+    }
+    
+    .redes-inicio {
+        display: flex;
+        gap: 40px;
+    }
+    
+    .card {
+        width: 385px;
+        height: 550px;
+        margin: 30px;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.37);
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 0.048);
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .img-projeto {
+        width: 340px;
+    }
+
+    .content h1 {
+        font-size: 25px;
+        color: var(--cor8);
+    }
+
+    .content p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 362px) {
+    .nav-bar {
+        padding: 1.5rem 0rem;
+    }
+    .redes-inicio {
+        display: flex;
+        gap: 30px;
+    }
+   
+    .logo-redes {
+        width: 45px;
+        border-radius: 15px;
+    }
+
+    .buttons {
+        display: flex;
+        gap: 10px;
+    }
+
+    .button {
+        width: 120px;
+        height: 55px;
+        font-size: 14px;
+        padding: 5px;
+    }
+}
